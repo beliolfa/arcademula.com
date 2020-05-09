@@ -34,27 +34,28 @@
     <MainSection id="social" title="Redes Sociales" dark class="w-full">
       <SectionSocialMedia />
     </MainSection>
-
-    <modal
-      name="mail-modal"
-      width="95%"
-      :max-width="600"
-      :adaptive="true"
-      height="auto"
-    >
-      <div class="p-8 text-black">
-        <div class="my-2"><i class="nes-icon is-large heart"></i>Bien!</div>
-        <p>Vas a enviarnos un correo para solicitar entrar en este apasaionante proyecto.</p>
-        <div class="mt-4">
-          <button class="nes-btn" @click="$modal.hide('mail-modal')">Luego</button>
-          <a
-            href="mailto:info@arcademula.com?Subject=Quiero ser soci@!"
-            class="nes-btn is-primary"
-            @click="$modal.hide('mail-modal')"
-          >Estoy preparado</a>
+    <client-only>
+      <modal
+        name="mail-modal"
+        width="95%"
+        :max-width="600"
+        :adaptive="true"
+        height="auto"
+      >
+        <div class="p-8 text-black">
+          <div class="my-2"><i class="nes-icon is-large heart"></i>Bien!</div>
+          <p>Vas a enviarnos un correo para solicitar entrar en este apasaionante proyecto.</p>
+          <div class="mt-4">
+            <button class="nes-btn" @click="$modal.hide('mail-modal')">Luego</button>
+            <a
+              href="mailto:info@arcademula.com?Subject=Quiero ser soci@!"
+              class="nes-btn is-primary"
+              @click="$modal.hide('mail-modal')"
+            >Estoy preparado</a>
+          </div>
         </div>
-      </div>
-    </modal>
+      </modal>
+    </client-only>
   </div>
 </template>
 

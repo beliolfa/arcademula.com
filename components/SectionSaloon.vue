@@ -14,15 +14,17 @@
         @click="showImage"
       />
     </div>
-    <modal
-      name="image-modal"
-      width="95%"
-      :max-width="600"
-      :adaptive="true"
-      height="auto"
-    >
-      <img :src="image">
-    </modal>
+    <client-only>
+      <modal
+        name="image-modal"
+        width="95%"
+        :max-width="600"
+        :adaptive="true"
+        height="auto"
+      >
+        <img :src="image">
+      </modal>
+    </client-only>
   </div>
 </template>
 
