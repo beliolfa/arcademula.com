@@ -14,7 +14,7 @@ export default {
       { name: 'twitter:site', content: '@arcademula' },
       { name: 'twitter:title', content: 'Asociación Arcade Mula. Preservación del Arcade de los 80 y 90' },
       { name: 'twitter:description', content: 'Queremos que los niños de hoy, que no han conocido el Arcade, puedan descubrir cómo y con qué nos divertíamos los hoy mayores, y los que hoy somos mayores podamos volver a pasarlo como niños.' },
-      { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_banners/1117078712799965185/1579629725/1500x500' },
+      { name: 'twitter:image', content: 'https://user-images.githubusercontent.com/12644599/81480085-99352c00-9227-11ea-93ac-8f4fc4411a24.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://user-images.githubusercontent.com/12644599/81475748-54e96200-920e-11ea-9b7a-3685d122de6a.png' },
