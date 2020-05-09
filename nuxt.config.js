@@ -39,6 +39,11 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
+
+  purgeCSS: {
+    whitelistPatterns: [/v--modal/],
+  },
+
   /*
   ** Nuxt.js modules
   */
