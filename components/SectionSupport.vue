@@ -1,23 +1,36 @@
 <template>
   <div>
+    <modal
+      name="mail-modal"
+      width="95%"
+      :max-width="600"
+      :adaptive="true"
+      height="auto"
+    >
+      <div class="nes-dialog mx-auto text-black">
+        <div class="title my-2"><i class="nes-icon is-large heart"></i>Bien!</div>
+        <p>Vas a enviarnos un correo para solicitar entrar en este apasaionante proyecto.</p>
+        <menu class="dialog-menu mt-4">
+          <button class="nes-btn" @click="$modal.hide('mail-modal')">Luego</button>
+          <a
+            href="mailto:info@arcademula.com?Subject=Quiero ser soci@!"
+            class="nes-btn is-primary"
+            @click="$modal.hide('mail-modal')"
+          >Estoy preparado</a>
+        </menu>
+      </div>
+    </modal>
     <div>
       <i class="nes-icon coin is-large" />
       <span>Puedes pertenecer a la Asociación como Socio, la cuota mensual es de 20€, ser socio te da derecho a acceder al local siempre que quieras. También participarás en la toma de decisiones de la asociación.</span>
     </div>
     <div>
-        <button type="button" class="nes-btn is-primary my-4" onclick="document.getElementById('dialog-default').showModal();">
+        <button
+          type="button"
+          class="nes-btn is-primary my-4"
+          @click="$modal.show('mail-modal')">
           Hazte Socio
         </button>
-        <dialog class="nes-dialog mx-auto" id="dialog-default">
-          <form method="dialog">
-            <div class="title my-2"><i class="nes-icon is-large heart"></i>Bien!</div>
-            <p>Vas a enviarnos un correo para solicitar entrar en este apasaionante proyecto.</p>
-            <menu class="dialog-menu mt-4">
-              <button class="nes-btn">Luego</button>
-              <button class="nes-btn is-primary">Estoy preparado</button>
-            </menu>
-          </form>
-        </dialog>
       </div>
       <div>Unas cuantas veces al mes la asociación realizará jornadas de apertura para no socios, que
           denominamos “Eventos”. La entrada para los no socios a estos “Eventos” es gratuita. Todas las Arcades están en modo free-play (Sin moneda).
