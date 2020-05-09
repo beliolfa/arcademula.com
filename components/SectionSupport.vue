@@ -10,7 +10,7 @@
       <div class="p-8 text-black">
         <div class="title my-2"><i class="nes-icon is-large heart"></i>Bien!</div>
         <p>Vas a enviarnos un correo para solicitar entrar en este apasaionante proyecto.</p>
-        <menu class="dialog-menu mt-4">
+        <menu class="mt-4">
           <button class="nes-btn" @click="$modal.hide('mail-modal')">Luego</button>
           <a
             href="mailto:info@arcademula.com?Subject=Quiero ser soci@!"
