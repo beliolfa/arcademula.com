@@ -42,7 +42,7 @@
         images: [
           {
             low_res_image: 'https://user-images.githubusercontent.com/12644599/81474394-6e39e080-9205-11ea-827e-b5d319a0b9bb.jpg',
-            image: 'https://user-images.githubusercontent.com/12644599/81475206-0a1a1b00-920b-11ea-81af-7dd0cfbc8a42.jpg',
+            image: 'https://user-images.githubusercontent.com/12644599/81479516-0777ef80-9224-11ea-8c6a-fd31b9764d50.jpg',
           },
           {
             low_res_image: 'https://user-images.githubusercontent.com/12644599/81474422-ab9e6e00-9205-11ea-8d6f-c55d4a5989f6.jpg',
