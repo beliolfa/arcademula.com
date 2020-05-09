@@ -4,17 +4,23 @@
       <i class="nes-icon star"></i>
       <span>Truco: Click en la imágen para verla en detalle</span>
     </div>
-    <div class="w-full flex justify-around items-center flex-wrap">
+    <div class="w-full flex-col sm:flex-row flex justify-around items-center flex-wrap">
       <PixelatedImage
         v-for="(image, index) in images"
         :key="index"
         :low-res-image="image.low_res_image"
         :image="image.image"
-        class="min-w-third my-2"
+        class="min-w-full sm:min-w-third my-2"
         @click="showImage"
       />
     </div>
-    <modal name="image-modal" height="auto">
+    <modal
+      name="image-modal"
+      width="95%"
+      :max-width="600"
+      :adaptive="true"
+      height="auto"
+    >
       <img :src="image">
     </modal>
   </div>

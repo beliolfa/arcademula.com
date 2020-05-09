@@ -1,6 +1,6 @@
 <template>
-  <div class="container flex items-center flex-col font-nes px-16">
-    <section class="w-full flex items-center justify-between my-8">
+  <div class="container flex items-center flex-col font-nes px-4">
+    <section class="w-full flex flex-col-reverse sm:flex-row items-center justify-between my-8">
       <div class="flex items-center ">
         <i class="nes-ash mt-24"></i>
         <div class="nes-balloon from-left">
@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="flex items-center">
-        <span class="text-4xl mr-4 nes-text is-primary">Arcade Mula</span>
+        <span class="text-3xl mx-4 nes-text is-primary text-center">Arcade Mula</span>
         <img src="https://user-images.githubusercontent.com/12644599/81475748-54e96200-920e-11ea-9b7a-3685d122de6a.png">
       </div>
     </section>

@@ -10,6 +10,7 @@ module.exports = {
       nes: ['Press Start 2P']
     },
     minWidth: {
+      full: '100%',
       third: '30%',
     },
   },
