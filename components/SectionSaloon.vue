@@ -1,8 +1,8 @@
 <template>
   <div class="w-full">
     <div class="my-4">
-      <i class="nes-icon star"></i>
-      <span>Truco: Click en la imágen para verla en detalle</span>
+      <i class="nes-logo"></i>
+      <span>Estamos en C/ Diario la Verdad SN. Mula (Murcia)</span>
     </div>
     <div class="w-full flex-col sm:flex-row flex justify-around items-center flex-wrap">
       <PixelatedImage
@@ -13,6 +13,10 @@
         class="min-w-full sm:min-w-third my-2"
         @click="showImage"
       />
+    </div>
+    <div class="my-4">
+      <i class="nes-icon star"></i>
+      <span>Truco: Click en la imágen para verla en detalle</span>
     </div>
     <client-only>
       <modal
