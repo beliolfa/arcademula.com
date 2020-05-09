@@ -7,7 +7,7 @@
       :adaptive="true"
       height="auto"
     >
-      <div class="nes-dialog mx-auto text-black">
+      <div class="p-8 text-black">
         <div class="title my-2"><i class="nes-icon is-large heart"></i>Bien!</div>
         <p>Vas a enviarnos un correo para solicitar entrar en este apasaionante proyecto.</p>
         <menu class="dialog-menu mt-4">
