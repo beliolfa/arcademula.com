@@ -21,26 +21,6 @@
 
     <div>Arcade Mula es una asociación sin ánimo de lucro, todo lo recaudado por la asociación va destinado al mantenimiento del local y la adquisición de nuevo material y su conservación.</div>
 
-    <modal
-      name="mail-modal"
-      width="95%"
-      :max-width="600"
-      :adaptive="true"
-      height="auto"
-    >
-      <div class="p-8 text-black">
-        <div class="my-2"><i class="nes-icon is-large heart"></i>Bien!</div>
-        <p>Vas a enviarnos un correo para solicitar entrar en este apasaionante proyecto.</p>
-        <div class="mt-4">
-          <button class="nes-btn" @click="$modal.hide('mail-modal')">Luego</button>
-          <a
-            href="mailto:info@arcademula.com?Subject=Quiero ser soci@!"
-            class="nes-btn is-primary"
-            @click="$modal.hide('mail-modal')"
-          >Estoy preparado</a>
-        </div>
-      </div>
-    </modal>
   </div>
 </template>
 
