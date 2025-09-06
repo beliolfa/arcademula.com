@@ -2,7 +2,7 @@
   <div>
     <div>
       <i class="nes-icon coin is-large" />
-      <span>Puedes pertenecer a la Asociación como Socio, la cuota mensual es de 20€, ser socio te da derecho a acceder al local siempre que quieras. También participarás en la toma de decisiones de la asociación.</span>
+      <span>Puedes pertenecer a la Asociación como Socio en varias modalidades. Socio por un día: 4€. Socio por un mes: 10€. Además ofrecemos descuentos si traes un acompañante o vienes con tu familia. Ser socio te da derecho a acceder al local siempre que quieras y a participar en la toma de decisiones de la asociación.</span>
     </div>
 
     <UModal>
